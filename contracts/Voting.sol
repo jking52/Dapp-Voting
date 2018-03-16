@@ -33,7 +33,7 @@ modifier votingClosed(){
 }
 
 // add a vote
-function addVote(string _voteName, string _voteDescription) public {
+function createVote(string _voteName, string _voteDescription) public {
   owner = msg.sender;
   voteName = _voteName;
   voteDescription = _voteDescription;
