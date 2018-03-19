@@ -41,6 +41,10 @@ function createVote(string _voteName, string _voteDescription) public {
   numberOfVoters = 0;
 }
 
+function getVoteDetails() public view returns(address _owner, string _name, string _description){
+  return (owner, voteName, voteDescription);
+}
+
 //Let a voter cast thier vote. 1 is a vote for and 0 is a vote against
 function castVote(uint _vote) public votingOpen(){
   // check address has not already registerd a vote

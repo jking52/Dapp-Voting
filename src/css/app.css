@@ -11,6 +11,10 @@ body {
   height: 114px;
 }
 
+.votesRow {
+    padding-top: 40px;
+}
+
 .welcome {
   font-size: 18px;
   display: inline;
